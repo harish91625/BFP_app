@@ -15,6 +15,7 @@ if st.button("Design BFP Efficiency and Head"):
     output1=bfp_model1.predict(input_array)
     st.success(f"Design BFP Efficiency and Head for the test flow of {flow_value} is : **{output[0]:.2f}%** and {output1[0]:.2f}")
 
-st.info("This model uses Random Forest to predict BFP efficiency based on flow rate")
+st.info("This model uses Random Forest machine learning model to get BFP design efficiency and design head based on flow rate")
+
 
 
